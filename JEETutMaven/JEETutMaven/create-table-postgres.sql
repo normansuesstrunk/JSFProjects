@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS users; 
 DROP TABLE IF EXISTS user_roles; 
 
-DROP SEQUENCE user_id_seq; 
+DROP SEQUENCE IF EXISTS user_id_seq;
 
 CREATE SEQUENCE user_id_seq;
 

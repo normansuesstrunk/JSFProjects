@@ -8,7 +8,7 @@
 		maxActive="50" 
 		maxIdle="30" 
 		maxWait="10000" 
-		username="pguser"
+		username="postgres"
 		password="password" 
 		driverClassName="org.postgresql.Driver"
 		url="jdbc:postgresql://localhost:5432/webapp" />
@@ -20,7 +20,7 @@
 	   	connectionURL="jdbc:postgresql://localhost:5432/webapp"
 	    userTable="users" userNameCol="user_name" userCredCol="user_pass"
 	   	userRoleTable="user_roles" roleNameCol="role_name"
-	   	connectionName="pguser"
+	   	connectionName="postgres"
 	   	connectionPassword="password"
     	/>
     	
