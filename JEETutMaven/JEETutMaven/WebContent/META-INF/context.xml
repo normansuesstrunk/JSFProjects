@@ -23,6 +23,5 @@
 	   	connectionName="postgres"
 	   	connectionPassword="password"
     	/>
-    	
 </Context>
 
