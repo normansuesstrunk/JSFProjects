@@ -23,10 +23,10 @@
 
 		<h:form class="form-signin" id="login-form">
            <h:outputText value="username:"/>
-           <h:inputText class="form-control" placeHolder="username" value="#{loginBean.userName}" id="username"/>
+           <h:inputText class="form-control" value="#{loginBean.userName}" id="username"/>
            <br/>
            <h:outputText value="password:"/>
-           <h:inputSecret class="form-control" placeHolder="password" value="#{loginBean.password}" id="password"/>
+           <h:inputSecret class="form-control" value="#{loginBean.password}" id="password"/>
            <br/>
            <h:commandButton class="btn btn-lg btn-primary btn-block" id="button" value="Login" action="#{loginBean.login}"/>
            <h:messages />

@@ -8,12 +8,12 @@ import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
-/**¨
+/**
  * 
  * @author Norman Suesstrunk
  *
  */
-@ManagedBean
+@ManagedBean(name="loginBean")
 @SessionScoped
 public class LoginBean {
 	
